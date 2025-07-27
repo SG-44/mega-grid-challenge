@@ -70,7 +70,7 @@ const GameBoard = () => {
         variant="glow"
         size="icon"
         className={`
-          h-12 w-12 text-lg font-bold
+          h-12 w-12 text-3xl font-bold
           ${!isActive || isWon ? 'opacity-50 cursor-not-allowed' : 'hover:scale-110'}
           ${value === 'X' ? 'text-primary' : value === 'O' ? 'text-accent' : ''}
         `}
@@ -97,7 +97,7 @@ const GameBoard = () => {
       >
         {winner ? (
           <div className="absolute inset-0 flex items-center justify-center bg-card/80 backdrop-blur-sm rounded-lg">
-            <span className={`text-4xl font-bold ${winner === 'X' ? 'text-primary' : 'text-accent'}`}>
+            <span className={`text-8xl font-bold ${winner === 'X' ? 'text-primary' : 'text-accent'}`}>
               {winner}
             </span>
           </div>
