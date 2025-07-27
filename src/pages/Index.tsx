@@ -28,7 +28,7 @@ const Index = () => {
                 variant="hero" 
                 size="xl" 
                 onClick={() => navigate('/game')}
-                className="animate-glow-pulse"
+                className="shadow-[0_0_20px_hsl(var(--primary)_/_0.5)] hover:shadow-[0_0_30px_hsl(var(--primary)_/_0.7)]"
               >
                 <Zap className="h-5 w-5 mr-2" />
                 Play Now
